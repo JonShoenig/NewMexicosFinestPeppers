@@ -2,22 +2,35 @@
 <html>
 <head>
   <title>Nameofapp</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <meta name="viewpoint" content="width-device-width, initial-scale=1">
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<nav>
-		<ul>
-			<li>Home</li>
-			<li>About</li>
-			<li>Contact</li>
-		</ul>
-	</nav>	
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"  id="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
+      <ul class="nav navbar-nav">
+        <li class="active" id="test"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="#">Contact<span class="sr-only">(current)</span></a></li>
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</div>
+</nav>
+		<%= image_tag("heisenberg_bicycle.jpg", class: "img-responsive") %>
 <%= yield %>
 
-<footer>
-	&copy; 2015 Bike Berlin
-</footer>	
+	<footer>
+		&copy; 2015 Bike Berlin
+	</footer>
+</div>	
 </body>
 </html>
