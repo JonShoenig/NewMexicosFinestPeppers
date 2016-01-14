@@ -4,13 +4,22 @@
 
 * {box-sizing: border-box}
 
+body {background-color: #A3F9FF;}
+
 /*Navigation bar*/
 
-#navbar {background-color: #00f;}
+#navbar {background: #00f;}
 
-nav li {display: inline-block; font-family: Calibri; font-size: 1.5em; font-weight: bold; text-transform: uppercase; margin: 5px;}
+.navbar-inverse .navbar-nav>.active>a {background-color: #00f;}
+
+.navbar-inverse .navbar-nav>li>a {color: #fff;}
+
+nav li {display: inline; font-family: Calibri; font-size: 1.75em; font-weight: bold; text-transform: uppercase; margin: 5px;}
 
 nav ul {float: left}
+
+/*picture*/
+.content {margin: auto; width: 50%;}
 
 /*body of page*/
 
