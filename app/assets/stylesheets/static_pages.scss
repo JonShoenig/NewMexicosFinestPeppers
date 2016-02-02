@@ -12,22 +12,40 @@ body {background-color: #A3F9FF;}
 
 .navbar-inverse .navbar-nav>.active>a {background-color: #00f;}
 
-.navbar-inverse .navbar-nav>li>a {color: #fff;}
+.navbar-default .navbar-nav>li>a {color: #fff;}
 
-nav li {display: inline; font-family: Calibri; font-size: 1.75em; font-weight: bold; text-transform: uppercase; margin: 5px;}
+.navbar-default .navbar-brand {color: #fff; font-size: 1.5em; font-family: Calibri; font-weight: bold; text-transform: uppercase; margin: 5px;}
 
-nav ul {float: left}
+nav a {display: inline; font-family: Calibri; font-size: 1.5em; font-weight: bold; text-transform: uppercase; margin: 5px;}
+
+#nav-buttons1  {float: left}
+
+#nav-buttons2 {float: right}
 
 /*picture*/
-.content {margin: auto; width: 50%;}
+.content {margin: auto; width: 70%;}
 
 /*body of page*/
 
 h1 {color: #00f; font-family: Calibri; font-size: 3em; font-weight: bold; text-align: center;}
 
-h2 {color: #00f; font-family: Calibri; font-size: 2.5em; font-weight: bold; text-align: center;}
+h2 {color: #00f; font-family: Calibri, sans-serif; font-size: 2.5em; font-weight: bold; text-align: center;}
 
-.carousel-caption {color: blue;}
+h3 {color: #000; font-family: Calibri, sans-serif; font-size: 2em; text-align: center; padding: 30px 0;}
+
+p {padding-top: 5px;}
+
+/*carousel*/
+
+.carousel-caption {color: blue; position: relative; left: 5px; z-index: -1; font-size: 1.2em;}
+
+a.left.carousel-control {opacity: 0;}
+
+a.right.carousel-control {opacity: 0;}
+
+span.glyphicon.glyphicon-chevron-left {opacity: 0.5;}
+
+img {margin: 0 auto; width: 65%;}
 
 /*footer*/
 
