@@ -10,26 +10,12 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"  id="navbar">
-  <div class="container-fluid" id="navbar">
-    <div class="navbar-header">
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
-      <ul class="nav navbar-nav" id="links">
-        <li><a href="#">Home<span class="sr-only">(current)</span></a></li>
-        <li><a href="#">About<span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Contact<span class="sr-only">(current)</span></a></li>
-      </ul>
-      
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</div>
-</nav>
+		<%= render partial: 'shared/nav' %>
 <div class="container">
 		<%= image_tag("heisenberg_bicycle.jpg", class: "img-responsive content") %>
 <%= yield %>
 
-	<footer class="footer">
+	<footer>
 		&copy; 2015 Bike Berlin
 	</footer>
 </div>	
