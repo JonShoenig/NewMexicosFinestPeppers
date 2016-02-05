@@ -4,5 +4,8 @@
 
 h2 {color: #00f}
 
-@product.each {display: inline-block;}
+@product.each {display: inline;}
 
+.boxed {height: 350px;}
+
+#pic {width: 190px; height: 170px}
