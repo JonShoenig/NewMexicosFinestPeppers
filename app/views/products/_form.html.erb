@@ -13,24 +13,24 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name %><br>
-    <%= f.text_field :name %>
+    <%= f.label :name, :class => "form-label" %><br>
+    <%= f.text_field :name, :class => "form-control", :type => "text" %>
   </div>
   <div class="field">
-    <%= f.label :description %><br>
-    <%= f.text_area :description %>
+    <%= f.label :description, :class => "form-label" %><br>
+    <%= f.text_area :description, :class => "form-control", :id => "textbox", :type => "text" %>
   </div>
   <div class="field">
-    <%= f.label :image_url %><br>
-    <%= f.text_field :image_url %>
+    <%= f.label :image_url, :class => "form-label" %><br>
+    <%= f.text_field :image_url, :class => "form-control", :type => "text" %>
   </div>
   <div class="field">
-    <%= f.label :colour %><br>
-    <%= f.text_field :colour %>
+    <%= f.label :colour, :class => "form-label" %><br>
+    <%= f.text_field :colour, :class => "form-control", :type => "text" %>
   </div>
   <div class="field">
-    <%= f.label :price %><br>
-    <%= f.text_field :price %>
+    <%= f.label :price, :class => "form-label" %><br>
+    <%= f.text_field :price, :class => "form-control", :type => "number" %>
   </div>
   <div class="actions">
     <%= f.submit %>
