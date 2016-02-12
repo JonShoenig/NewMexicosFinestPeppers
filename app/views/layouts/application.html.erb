@@ -11,8 +11,11 @@
 </head>
 <body>
 		<%= render partial: 'shared/nav' %>
-<div class="container">
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+    <div class="container">
 		<%= image_tag("peppers_collage.jpg", class: "img-responsive content") %>
+
 <%= yield %>
 
 	<footer>
