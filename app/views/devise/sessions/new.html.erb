@@ -1,6 +1,7 @@
 <h2>Log in</h2>
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <div class="holder">
   <div class="row">
     <div class="col-md-4">
       <div class="field">
@@ -24,6 +25,8 @@
   <div class="actions">
     <%= f.submit "Log in" %>
   </div>
-<% end %>
-<br>
+  <br>
 <%= render "devise/shared/links" %>
+  </div>
+<% end %>
+
