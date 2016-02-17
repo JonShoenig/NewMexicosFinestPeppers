@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails', '2.2.4'
+gem 'ruby', '2.2.4'
+gem 'rails', '4.2.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 
 # Use sqlite3 as the database for Active Record
@@ -56,3 +57,4 @@ end
 gem 'devise'
 
 gem 'cancancan'
+
