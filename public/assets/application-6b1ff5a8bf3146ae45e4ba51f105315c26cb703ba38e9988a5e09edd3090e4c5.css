@@ -1,0 +1,331 @@
+/* line 5, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/products.scss */
+h2 {
+  color: #00f;
+}
+
+@product .each {
+  display: inline;
+}
+/* line 9, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/products.scss */
+.boxed {
+  height: 350px;
+}
+
+/* line 11, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/products.scss */
+#pic {
+  width: 190px;
+  height: 170px;
+}
+
+/* line 13, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/products.scss */
+.form-label {
+  color: #000;
+  font-size: 1.25em;
+}
+
+/* line 15, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/products.scss */
+.form-control {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+/* line 17, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/products.scss */
+#textbox {
+  height: 180px;
+}
+/* line 1, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #00f;
+}
+/* line 24, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: purple;
+}
+/* line 28, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 40, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 44, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 50, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 58, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 69, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/* line 5, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 7, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+body {
+  background-color: #A3F9FF;
+}
+
+/*Navigation bar*/
+/* line 11, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+#navbar {
+  background: #00f;
+}
+
+/* line 13, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: #00f;
+}
+
+/* line 15, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+/* line 17, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+.navbar-header > a {
+  display: inline;
+  position: relative;
+  top: 21px;
+  color: #fff;
+  left: -15px;
+}
+
+/* line 19, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+.navbar-default .navbar-brand {
+  color: #fff;
+  font-size: 1.5em;
+  font-family: Calibri;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 5px;
+}
+
+/* line 21, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+nav a {
+  display: inline;
+  font-family: Calibri;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 5px;
+}
+
+/* line 24, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+#nav-buttons1 {
+  float: left;
+}
+
+/* line 26, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+#nav-buttons2 {
+  float: right;
+}
+
+/*picture*/
+/* line 29, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+.content {
+  margin: auto;
+  width: 70%;
+}
+
+/*body of page*/
+/* line 33, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+h1 {
+  color: #00f;
+  font-family: Calibri;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* line 35, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+h2 {
+  color: #00f;
+  font-family: Calibri, sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* line 37, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+h3 {
+  color: #000;
+  font-family: Calibri, sans-serif;
+  font-size: 2em;
+  text-align: center;
+  padding: 30px 0;
+}
+
+/* line 39, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+p {
+  padding-top: 5px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*carousel*/
+/* line 43, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+.carousel-caption {
+  color: blue;
+  position: relative;
+  left: 5px;
+  z-index: -1;
+  font-size: 1.2em;
+}
+
+/* line 45, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+a.left.carousel-control {
+  opacity: 0;
+}
+
+/* line 47, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+a.right.carousel-control {
+  opacity: 0;
+}
+
+/* line 49, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+span.glyphicon.glyphicon-chevron-left {
+  opacity: 0.5;
+}
+
+/* line 51, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+img {
+  margin: 0 auto;
+  width: 65%;
+}
+
+/*footer*/
+/* line 55, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+footer {
+  text-align: center;
+  font-size: 1em;
+  color: #00f;
+}
+
+/*thank you page*/
+/* line 59, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+.panel-body {
+  position: relative;
+  text-align: center;
+  padding: 50px 0;
+}
+
+/* line 61, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+.panel-body p {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+/* line 63, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+.form-control {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+/* line 65, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/static_pages.scss */
+#messagebox {
+  height: 200px;
+}
+/* line 5, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/users.scss */
+.form-label {
+  color: #000;
+  font-size: 1.25em;
+}
+
+/* line 7, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/users.scss */
+.form-control {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+/* line 9, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/users.scss */
+.actions {
+  width: 100%;
+}
+
+/* line 11, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/users.scss */
+.alert-link {
+  text-align: center;
+  font-weight: 900;
+  font-size: 2em;
+}
+
+/* line 13, /Users/jonsho25/Documents/my_cf_project/nameofapp/app/assets/stylesheets/users.scss */
+.holder {
+  padding-left: 160px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
