@@ -1,27 +1,33 @@
 <p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Name:</strong>
+<div class="container", id="display">
+  <div class="row">
+    <div class="col-sm-4 col-md-8 col-lg-8">
+<h4>
+  <strong>
   <%= @product.name %>
-</p>
-
+  </strong>
+</h4>
+<br>
+<%= image_tag(@product.image_url, class: "img-responsive", id:"pic2") %>
+<br>
 <p>
-  <strong>Description:</strong>
+  <strong class="glyphicon glyphicon-minus">Description:</strong>
   <%= @product.description %>
 </p>
 
 <p>
-  <strong>Image url:</strong>
-  <%= @product.image_url %>
-</p>
-
-<p>
-	<strong>Colour:</strong>
+	<strong class="glyphicon glyphicon-minus">Colour:</strong>
 	<%= @product.colour %>
 </p>
 <p>
-	<strong>Price:</strong>
+	<strong class="glyphicon glyphicon-minus">Price:</strong> $
 	<%= @product.price %>
-</p>	
+</p>
+  <p id="comments">Placeholder for comments</p>
+    </div>
+  </div>
+
 <%= link_to 'Edit', edit_product_path(@product) %> |
 <%= link_to 'Back', products_path %>
+
+</div>
