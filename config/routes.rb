@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users 
-  resources :users
-  resources :products
+  
   resources :orders, only: [:index, :show, :create, :destroy]
+
   get 'static_pages/about'
 
   get 'static_pages/contact'
@@ -44,8 +44,10 @@ Rails.application.routes.draw do
   #   end
 
   # Example resource route with more complex sub-resources:
-  #   resources :products do
-  #     resources :comments
+     resources :products do
+       resources :comments
+      end
+     resources :users
   #     resources :sales do
   #       get 'recent', on: :collection
   #     end
