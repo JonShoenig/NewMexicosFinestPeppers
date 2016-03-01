@@ -28,7 +28,9 @@
         <%= render partial: 'new_comment' %>
 
         <%= render partial: 'comments' %>
-        <%= will_paginate @comments %>
+        <div class="container" id="average-rating">  
+          <h5><%= will_paginate @comments %></h5>
+        </div>
       </div>
       <br>
     </div>
