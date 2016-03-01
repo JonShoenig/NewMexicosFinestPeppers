@@ -28,16 +28,16 @@
         <%= render partial: 'new_comment' %>
 
         <%= render partial: 'comments' %>
-        <div class="container" id="average-rating">  
-          <h5><%= will_paginate @comments %></h5>
-        </div>
+        
       </div>
       <br>
     </div>
   </div>
+  <div class="container" id="average-rating">  
+    <h5><%= will_paginate @comments %></h5>
+  </div>
 
-
-<%= link_to 'Edit', edit_product_path(@product) %> |
-<%= link_to 'Back', products_path %>
+  <%= link_to 'Edit', edit_product_path(@product) %> |
+  <%= link_to 'Back', products_path %>
 
 </div>
