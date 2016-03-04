@@ -1,4 +1,5 @@
 class CommentsController < ApplicationController
+	# POST /comments
 	def create
 		@product = Product.find(params[:product_id])
 		@comment = @product.comments.new(comment_params)
@@ -17,7 +18,12 @@ class CommentsController < ApplicationController
  end
 end 
 
+	# DELETE /comments
 	def destroy
+		@comment = Comment.find(params[:id])
+		product = @comment.product
+		@comment.destroy
+		redirect_to product
 	end
 
 	private
