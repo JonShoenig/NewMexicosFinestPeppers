@@ -1,14 +1,16 @@
 
   <div class="col-sm-2 col-md-4 col-lg-4">
-  	<div style="height: 450px">
+   <div class="row">
+    <div style="height: 450px">
+      <div class="boxed">
     <%= image_tag(product.image_url, class: "img-responsive", id:"pic1")%>
-
-        <div class="boxed">
+        
         <h2><%= product.name %></h2>
         <p><%= product.description %></p>
         <p><%= product.colour %></p>
         <p><strong> $ <%=product.price %></strong></p>
-       
+        <p><%= link_to 'Show', product %></p>
+     </div>  
     </div>
   </div>     
 </div>
