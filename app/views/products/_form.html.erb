@@ -13,7 +13,7 @@
   <% end %>
 
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4", id="form-fields">
       <div class="field">
         <%= f.label :name, :class => "form-label" %><br>
         <%= f.text_field :name, :class => "form-control", :type => "text" %>
@@ -34,9 +34,10 @@
         <%= f.label :price, :class => "form-label" %><br>
         <%= f.text_field :price, :class => "form-control", :type => "number" %>
       </div>
-    </div>
-  </div>
-  <div class="actions">
+       <div class="actions">
     <%= f.submit %>
   </div>
 <% end %>
+    </div>
+  </div>
+ 
