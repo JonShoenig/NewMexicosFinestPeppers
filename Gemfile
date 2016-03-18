@@ -13,6 +13,9 @@ group :development, :test do
   gem 'guard-rspec', require: false 
   gem 'spork-rails'
   gem 'guard-spork'
+  gem 'rb-readline'
+  gem 'rb-fsevent', "~>0.9.4"
+  gem 'guard-process'
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'

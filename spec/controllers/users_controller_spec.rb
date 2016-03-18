@@ -9,11 +9,11 @@ describe UsersController, :type => :controller do
 
   describe "GET #show" do
     context "User is logged in" do
-     	 before do
-     	 		sign_in @user
-    	 end	 
+     	 before do          
+     	 		sign_in @user    
+    	 end          
 
-    it "loads correct user details" do
+    it "loads correct user details" do  
      	get :show, id: @user.id
      	expect(response).to have_http_status(200)
      	expect(assigns(:user)).to eq @user
@@ -38,5 +38,5 @@ describe UsersController, :type => :controller do
       end
   	end
  end
-
 end
+      
