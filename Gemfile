@@ -71,3 +71,5 @@ gem 'will_paginate'
 
 gem 'stripe'
 
+
+
