@@ -4,7 +4,7 @@ $(document).on('ready page:load', function(){
     	zoomWindowWidth: 300,
     	zoomWindowHeight: 300,
     	zoomWindowPosition: 1,
-    	zoomWindowOffetx: 350,
+    	zoomWindowOffetx: 450,
     	borderSize: 1,
     	lensFadeIn: 300,
     	lensFadeOut: 300,
