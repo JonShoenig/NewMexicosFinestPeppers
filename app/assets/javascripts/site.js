@@ -10,7 +10,7 @@ $(document).on('ready page:load', function(){
     	lensFadeOut: 300,
     	zoomWindowFadeIn: 200,
     	zoomWindowFadeOut: 200,
-    	lensOpacity: 0.25
+    	lensOpacity: 0.2
     });
     // Rating stars- Raty
     $('.rating').raty( {path: '/assets', scoreName: 'comment[rating]' });
