@@ -8,7 +8,7 @@
   </strong>
 </h4>
 <br>
-<%= image_tag(@product.image_url, class: "img-responsive", id:"pic2") %>
+<%= image_tag(@product.image_url, id:"pic2", class: "img-zoom", data_zoom_image:@product.image_url) %>
 <br>
 <p>
   <strong class="glyphicon glyphicon-minus"></strong>Description:
