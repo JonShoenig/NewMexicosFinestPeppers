@@ -2,7 +2,7 @@
 <div class="container", id="display">
   <div class="row">
     <div class="col-sm-4 col-md-8 col-lg-8">
-      <% cache product do %>
+      
         <h4><strong>
           <%= @product.name %>
         </strong></h4>
@@ -23,28 +23,28 @@
 	       <%= @product.price %>
       </p>
       <br>
-    <% end %>
-<div class="container" id="payments">
-  <%= form_tag "/payments/create" do %>
-    <%= hidden_field_tag(:product_id, @product.id) %>
-    <%= render partial: "shared/stripe_checkout_button" %>
-  <% end %> 
-</div>  
-<br>
+    
+    
+    <div class="container" id="payments">
+      <%= form_tag "/payments/create" do %>
+      <%= hidden_field_tag(:product_id, @product.id) %>
+      <%= render partial: "shared/stripe_checkout_button" %>
+    </div> 
+    <br>
   <div class="review">
     <%= render partial: 'new_comment' %>
 
     <%= render partial: 'comments' %>
-         
   </div>
-<br>
-      </div>
+  <br>
     </div>
-  <div class="container" id="average-rating">  
-    <h5><%= will_paginate @comments %></h5>
   </div>
-  <div id="links">
-  <%= link_to 'Edit', edit_product_path(@product) %> |
-  <%= link_to 'Back', products_path %>
-  </div>
+    <div class="container" id="average-rating">  
+      <h5><%= will_paginate @comments %></h5>
+    </div>
+    <div id="links">
+      <%= link_to 'Edit', edit_product_path(@product) %> |
+      <%= link_to 'Back', products_path %>
+    </div> 
 </div>
+<% end %>
