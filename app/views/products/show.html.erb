@@ -2,13 +2,13 @@
 <div class="container", id="display">
   <div class="row">
     <div class="col-sm-4 col-md-8 col-lg-8">
-      
+      <% cache @product do %>
         <h4><strong>
           <%= @product.name %>
         </strong></h4>
-    <br>
+     <br>
       <%= image_tag(@product.image_url, id:"pic2", class: "img-zoom", data_zoom_image:@product.image_url) %>
-    <br>
+     <br>
       <p>
         <strong class="glyphicon glyphicon-minus"></strong>Description:
           <%= @product.description %>
@@ -23,7 +23,7 @@
 	       <%= @product.price %>
       </p>
       <br>
-    
+      <% end %>
     
     <div class="container" id="payments">
       <%= form_tag "/payments/create" do %>
