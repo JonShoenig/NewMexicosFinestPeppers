@@ -3,14 +3,14 @@
    <div class="row">
     <div style="height: 450px">
       <div class="boxed">
-        
+        <% cache product do %>
         <%= link_to image_tag(product.image_url, class: "img-responsive", id:"pic1"), product %>
 
         <h2><%= link_to product.name, product %></h2>
         <p><%= product.description %></p>
         <p><%= product.colour %></p>
         <p><strong> $ <%=product.price %></strong></p>
-    
+      <% end %>
      </div>  
     </div>
   </div>     
