@@ -9,9 +9,11 @@
 				<% end %>
 			</p>
 			<p><%= comment.body %></p>
-			<p>Average Rating: <div class="rated" data-score="<%= @product.average_rating %>">
+			<br>
+			<p>Rating: <div class="rated" id="rated" data-score="<%= comment.rating %>">
 	 		</div>
 	 	 </div>
 	 <% end %>
   </div>
+  
 

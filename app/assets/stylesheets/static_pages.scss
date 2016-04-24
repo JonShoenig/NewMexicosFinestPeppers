@@ -8,7 +8,7 @@ body {background-color: #A3F9FF;}
 
 /*Navigation bar*/
 
-#navbar {background: #00f;}
+#navbar {background: #00f; position: fixed; width: 100%; margin: 0 auto; z-index: 1}
 
 .navbar-inverse .navbar-nav>.active>a {background-color: #00f;}
 
