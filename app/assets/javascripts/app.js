@@ -34,4 +34,5 @@ app.controller('OrdersCtrl', ['$scope', 'models', function($scope, models){
 		models.orders.delete(order);
 		$scope.orders.splice($scope.orders.indexOf(order), 1);
 	};
+	console.log($scope.orders);
 }]);
