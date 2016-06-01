@@ -5,7 +5,7 @@
 
 <%= form_tag("/static_pages/thank_you") do %>
 <div class="row">
-	<div class="col-md-4", id="contact-fields">
+	<div class="col-md-4 col-sm-6 col-xs-6", id="contact-fields">
 		<div class="form-group">
 			<%= label_tag :name, "Name" %>
 			<%= text_field_tag :name, nil, class: "form-control", placeholder: "Enter Name" %>
@@ -21,7 +21,7 @@
 		<%= submit_tag "Send" %>
 		<% end %>
 	</div>
-	<div class="col-md-8">
+	<div class="col-md-8 col-sm-6 col-xs-6">
 		<br>
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 			<%  loadedProducts = @products.all %>
