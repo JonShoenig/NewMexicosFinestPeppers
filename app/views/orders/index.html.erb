@@ -8,14 +8,14 @@
 			    <option value="" disabled selected>Select a Product</option>
 			    <option ng-repeat="product in products" value="{{product.id}}">{{product.name}}</option>
 		    </select>
-		    <input type="number" step="1" class="form-control" placeholder="Total" ng-model="newOrder.total">
+		    
 		    <input type="submit" value="+" class="btn btn-success">
 	    </form>
 
       <table class="table table-hover">
   	    <thead>
   		    <td>Order ID</td>
-  		    <td>Total</td>
+  		    
   		    <td>Product</td>
   		    <td></td>
   	    </thead>
@@ -23,9 +23,7 @@
   		    <td>
   			    {{order.id}}<small ng-show="order.user_id"><br>-{{order.user.email}}</small>
   		    </td>
-  		    <td>
-  			    <strong>{{order.total | currency}}</strong>
-  		    </td>
+  		    
   		    <td>
   			    {{order.product.name}}
   		    </td>
